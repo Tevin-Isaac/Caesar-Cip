@@ -15,7 +15,7 @@ Plaintext: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 
 Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
 
-Frequency analysis
+# Frequency analysis
 Frequency analysis is based on the study of the frequency of letters or groups of letters in a ciphertext. In all languages, different letters are used with different frequencies. For each language proportions of appearance of all characters are slightly different, so texts written in a given language have some certain common properties, which allow to distinguish them from texts written in other languages. In English, E is the most commonly used letter; therefore, in a sufficiently large sample of English text, it is likely that the letter that appears the most frequently in the text will be the letter E.
 
 ![freq-of-alpha](https://user-images.githubusercontent.com/81568615/128158317-16697fd2-d586-4bee-ad6d-bb4014ec4053.jpeg)
