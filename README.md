@@ -10,7 +10,7 @@ Caesar Cipher is one of the oldest and simplest forms of encrypting a message. I
 
 
 
-How shifting works in Ceaser cipher
+# How shifting works in Ceaser cipher
 Plaintext: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 
 Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
