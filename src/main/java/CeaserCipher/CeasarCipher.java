@@ -1,12 +1,14 @@
 package CeaserCipher;
 
+import java.util.Scanner;
+
 class CeaserCipher {
     // This rotates a character k-positions
 
     private String mText;
     private int mShift;
 
-    CeaserCipher.CeaserCipher(String mText, int mShift) {
+    CeaserCipher(String mText, int mShift) {
         this.mText = mText;
         this.mShift = mShift;
     }
@@ -19,23 +21,23 @@ class CeaserCipher {
         return mShift;
     }
 
-    static char cipher(char c, int k) {
-        // declare some helping constants
+    public static char cipher(char c, int k) {
+        //Here we declare some helping constants
         final int alphaLength = 26;
         final char asciiShift = Character.isUpperCase(c) ? 'A' : 'a';
         final int cipherShift = k % alphaLength;
 
-        // shift down to 0..25 for a..z
+        // we shift down to 0..25 for a..z
         char shifted = (char) (c - asciiShift);
 
-        //  rotate the letter and handle "wrap-around" for negatives and value >= 26
+        // Here we rotate the letter and handle "wrap-around" for negatives and value >= 26
         shifted = (char) ((shifted + cipherShift + alphaLength) % alphaLength);
 
-        // shift back up to english characters
+        // Here we shift back up to english characters
         return (char) (shifted + asciiShift);
     }
 
-    //  Rotate a string k-positions
+    // Here we Rotate a string k-positions
     String cipher() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < mText.length(); i++) {
