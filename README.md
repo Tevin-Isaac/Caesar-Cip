@@ -39,4 +39,5 @@ We can use this property of language to break not just Caesar cipher but any shi
 * java
 * Git
 
-COPYRIGHT TEVIN ISAAC.
+# Author
+TEVIN ISAAC.
