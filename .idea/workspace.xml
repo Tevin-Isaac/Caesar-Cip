@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5723803-c46c-4e09-a8e8-e9cc473a7b19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CeaserCipher/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeaserCipher/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CeaserCipher/CeasarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeaserCipher/CeasarCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CeaserCipher/CeasarCipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CeaserCipher/CeasarCipherTest.java" afterDir="false" />
     </list>
@@ -48,6 +45,9 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,7 +61,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CaesarCipherTest.Cypher_instanceof_Object">
+  <component name="RunManager" selected="Application.App (2)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CeaserCipher.App" />
+      <module name="Caesar.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CeaserCipher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CeaserCipher.App" />
+      <module name="Caesar.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CeaserCipher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Caesar.main" />
@@ -91,6 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Gradle.CaesarCipherTest.Cypher_instanceof_Object" />
         <item itemvalue="Application.App" />
       </list>

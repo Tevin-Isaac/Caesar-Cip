@@ -8,9 +8,9 @@ class CeaserCipher {
     private String mText;
     private int mShift;
 
-    CeaserCipher(String mText, int mShift) {
-        this.mText = mText;
-        this.mShift = mShift;
+    CeaserCipher(String text, int shift) {
+        this.mText = text;
+        this.mShift = shift;
     }
 
     public String getText() {
