@@ -12,6 +12,9 @@ Caesar Cipher is one of the oldest and simplest forms of encrypting a message. I
 | encrypts text|input any string|  | displays the encrypted text  |
 | decrypts encrypted string| input string | displays the dencrypted text   |
 
+## Known Bugs
+May run on vscode or intelli j IDEs.
+
 # PREVIEW 
 ![ceaser](https://user-images.githubusercontent.com/81568615/128158169-e70f0336-63e1-4233-a62c-bf978da4ba02.gif)
 
