@@ -23,9 +23,9 @@ Frequency analysis is based on the study of the frequency of letters or groups o
 Frequency of characters in the English alphabet
 We can use this property of language to break not just Caesar cipher but any shift cipher. Using the following steps, the plaintext can be retrieved:
 
-Identify the most common letter in the ciphertext.
+## Identify the most common letter in the ciphertext.
 
-Determine the shift used to make this letter decrypt to an E. For example, E is the fifth letter in the alphabet and, if J is the most common letter and is the tenth letter in the alphabet, the shift used is five.
+## Determine the shift used to make this letter decrypt to an E. For example, E is the fifth letter in the alphabet and, if J is the most common letter and is the tenth letter in the alphabet, the shift used is five.
 
 Decrypt the plaintext using the calculated shift value.
 
