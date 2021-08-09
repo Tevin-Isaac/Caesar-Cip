@@ -21,7 +21,7 @@ class App {
             key = keyboard.nextInt();
 
             //here we handle key errors
-            if (key < 1 || key > 26) {
+            if (key < 1 || key > 25) {
                 System.out.printf(" The key must be between 1 and 25, you entered %d.\n", key);
             }
         } while (key < 1 || key > 25);
