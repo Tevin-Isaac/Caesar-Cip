@@ -5,6 +5,13 @@ CaesarCipher is a program that encrypts texts files with a given key.
 # Description
 Caesar Cipher is one of the oldest and simplest forms of encrypting a message. It is a type of substitution cipher where each letter in the original message is replaced with a letter corresponding to a certain number of letters shifted up or down in the alphabet. For each letter of the alphabet, you would take its position in the alphabet, say 3 for the letter 'C', and shift it by the key number. If we had a key of +3, that 'C' would be shifted down to an 'F' - and that same process would be applied to every letter in the plaintext.
 
+
+# BEHAVIOUR DRIVEN DEVELOPMENT
+|behaviour   | input  |  output |   |
+|---|---|---|---|
+| encrypts text|input any string|  | displays the encrypted text  |
+| decrypts encrypted string| input string | displays the dencrypted text   |
+
 # PREVIEW
 ![ceaser](https://user-images.githubusercontent.com/81568615/128158169-e70f0336-63e1-4233-a62c-bf978da4ba02.gif)
 
