@@ -21,7 +21,7 @@ Follow the following setup instructions to run the program.
 ## Known Bugs
 May run on vscode or intelli j IDEs.
 
-# PREVIEW 
+# PREVIEW SAMPLE
 ![ceaser](https://user-images.githubusercontent.com/81568615/128158169-e70f0336-63e1-4233-a62c-bf978da4ba02.gif)
 
 
