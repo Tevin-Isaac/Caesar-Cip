@@ -12,7 +12,7 @@ Caesar Cipher is one of the oldest and simplest forms of encrypting a message. I
 | encrypts text|input any string|  | displays the encrypted text  |
 | decrypts encrypted string| input string | displays the dencrypted text   |
 
-# PREVIEW
+# PREVIEW 
 ![ceaser](https://user-images.githubusercontent.com/81568615/128158169-e70f0336-63e1-4233-a62c-bf978da4ba02.gif)
 
 
@@ -32,5 +32,11 @@ We can use this property of language to break not just Caesar cipher but any shi
 1. Identify the most common letter in the ciphertext.
 2.Determine the shift used to make this letter decrypt to an E. For example, E is the fifth letter in the alphabet and, if J is the most common letter and is the tenth letter in the alphabet, the shift used is five.
 3.Decrypt the plaintext using the calculated shift value.
+
+
+## Technologies Used
+* Intelli J IDEA
+* java
+* Git
 
 COPYRIGHT TEVIN ISAAC.
